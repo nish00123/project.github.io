@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background:silver;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+  h2{
+    font-family: Verdana, sans-serif;
+    margin-bottom: 40px;
+  }
+
+  p.outset {border-style: outset;}
+  p  {
+    color: Black;
+
+    font-size: 150%;
+     font-family: "Lucida Console", "Courier New", monospace;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  label {
+     font-family: 'Courier New', monospace;
+     font-size: 20px;
+     font-weight: 900;
+  }
+
+  input {
+    width: 100px;
+    height: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+  }
+
+#age {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+
+#first {
+  margin-left: 50px;
+}
+    
+  li {
+    float: left;
+  }
+
+#mail {
+  width: 175px;
+}
+
+#exp {
+  width: 25px;
+}
+
+#org {
+  width: 175px;
+}
+
+#sub {
+  width: 100px;
+}
+
+#location {
+  width: 175px;
+}
+
+#bday {
+  width: 50px;
+}
+
+#volunteer {
+  
+  width: 300px;
+  height: 150px;
+  align-items: center;
+  border-radius: 8px;
+  opacity: 0.6;
+  font-size: 30px;
+}
+    
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  li a:hover {
+    background-color: white;
+    color:black;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+  }
+  a{
+    font-family:monospace;
+  }
+  </style>
+    </head>
+    <body>
+
+
+</head>
+      <body>
+        <h1> Start Volunteering Today! </h1>
+        <ul>
+          <li> <a href="Aboutus.html">About Us</a> </li>
+          <li> <a href="Joinhere.html">Join Us</a></li>  
+        <li> <a href="Jobs.html">Jobs</a></li> 
+        <li> <a href="index.html">Home</a></li> 
+        </ul>
+        <p class="outset"> Everyday, organizations and individuals are looking for volunteers to help them with their work. Volunteering is a great way to socialize, make new connections, and, most importantly, make a difference. With your help, the world can truly become a better place, for both you and me. </p>
+       <u><h2> Sign up as a Member Today </h2></u>
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        <label id="first" for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+        <label for="bday">Date of Birth:</label>
+        <input type="text" id="bday" name="bday">
+        <label id="first"for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender">
+        <label for="number">Phone Number:</label>
+        <input type="text" id="number" name="number">
+        <label for="mail">Email:</label>
+        <input type="text" id="mail" name="mail">
+        <label id="first" for="exp">Volunteered Before?</label>
+        <input type="text" id="exp" name="exp">
+        <button type="submit" form="nameform" value="Submit">Submit</button>
+         </form>
+        <hr>
+        <u><h2> Sign up as an Organization Today </h2></u>
+        <label id="first" for="org">Organization Name:</label>
+        <input type="text" id="org" name="org">
+        <label for="sub">Submitter Name:</label>
+        <input type="text" id="sub" name="sub">
+        <br>
+        <label id="first" for="date">Date Submitted:</label>
+        <input type="text" id="date" name="date">
+        <label for="location">Location Established:</label>
+        <input type="text" id="location" name="location">
+        <br>
+        <label id="first" for="mail"> Organization Email:</label>
+        <input type="text" id="mail" name="mail">
+        <label for="orgnum">Organization Phone #:</label>
+        <input type="text" id="orgnum" name="orgnum">
+        <button type="submit" form="nameform" value="Submit">Submit</button>
+        <hr>
+        <button id="volunteer" type="Request" form="nameform" value="request">Create A Volunteer Request</button>
+    
+      </body>
+      </html>
